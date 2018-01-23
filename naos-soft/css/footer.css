@@ -1,0 +1,44 @@
+﻿.social {
+    text-align: left;
+    padding: 0;
+    display: block;
+    font-size: 14px;
+}
+
+.social li {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.social li a {
+    display: block;
+    color: #fff;
+    padding: 0px 0;
+}
+
+.social li a:hover {
+    opacity: 0.6;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.social li img {
+    width: 25px;
+    height: auto;
+}
+
+/*footer styles*/
+.footer {
+    color: #fff;
+    height: 75px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #021b27 url(../img/footer-bg.jpg) no-repeat center bottom;
+}
+
